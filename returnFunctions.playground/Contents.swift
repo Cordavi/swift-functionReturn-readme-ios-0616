@@ -35,10 +35,10 @@ func getAgeAndCongratulate(name:String) -> Int {
 let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
 
-func daysTillBirthday() -> String {
+func currentDate() -> String {
     let currentDate = NSDate()
     
     return "\(currentDate)"
 }
 
-print(daysTillBirthday())
+print(currentDate())
